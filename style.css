@@ -1,0 +1,93 @@
+body{
+    background: url("image1.jpg");
+    background-size: cover;
+    animation: animate 1s infinite;
+}
+.reg{
+    height: 100px;
+    width: 600px;
+    margin: auto;
+    color: red;
+    border: 3px solid red;
+    border-color: red blue green yellow;
+    margin-top: 55px;
+    font-size: xx-large;
+    background: rgba(0,0,0,0.7);
+    border-top-left-radius: 60%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contains{
+    height: 500px;
+    width: 500px;
+    color: aqua;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    font-size: large;
+    display: flex;
+    border:2px solid rgba(247, 242, 242, 0.7);
+    justify-content: center;
+    align-items: center;
+   backdrop-filter: blur(15px);
+    
+}
+@keyframes animate{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.page1{
+    background:red;
+    animation: animatep 0.5s infinite;
+}
+@keyframes animatep{
+    0%{
+        background: rgb(231, 115, 21);
+    }
+    20%{
+        background: rgb(251, 255, 0);
+    }
+    40%{
+        background: rgb(0, 255, 55);
+    }
+    60%{
+        background: rgb(0, 55, 128);
+    }
+    80%{
+        background: rgb(255, 0, 157);
+    }
+    100%{
+        background: rgb(255, 0, 0);
+    }
+    
+}
+
+#dola{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+#page{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    margin:auto;
+    margin-top: 100px;
+}
+#reg{
+    width: 600px;
+    height: 100px;
+   text-align: center;
+    margin:auto;
+    margin-top: 100px;
+}
+
+
